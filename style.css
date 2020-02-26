@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Shabnam;
+    src: url("./fonts/Shabnam.ttf");
+    font-weight: normal;
+}
+body {
+    width: 100vw;
+    margin: 0;
+    font-family: Shabnam;
+}
+.navBar {
+    width: 100vw;
+    height: 70px;
+    background-color: #4e4e4e;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 10%;
+    height: 70%;
+}
+.menu {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+}
+.menuOption {
+    width: 25%;
+    height: 100%;
+    margin: 2px;
+    border: 2px solid #21A0A0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.menuOption:hover {
+    border: 2px solid #21A0A0;
+    background-color: #21A0A0;
+}
+.menuOption span {
+    font-size: 1.5em;
+    direction: rtl;
+    text-decoration: none;
+    color: white;
+}
+.hamberger {
+    width: 60px; /*should re arange*/
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.hamberger a {
+    font-size: 3.5em;
+    color: black;
+    text-decoration: none;
+}
+/********************************/
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+/********************************/
+.left {
+    width: 50vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.left .top {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left .top img {
+    width: 50%;
+    height: 70%;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+.left .bottom {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.left .bottom .colors {
+    width: 15%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+/********************************/
+.right {
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right table {
+    width: 90%;
+    height: 50%;
+    background-color: #21A0A0;
+    margin-top: 12%;
+    direction: rtl;
+    text-align: center;
+    border-collapse: collapse;
+}
+.right table tr, thead {
+    border: 3px solid black;
+}
+.right .pen{
+    color: #024d4a;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+.right .del{
+    color: #aa3004;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.right input {
+    border: 3px solid black;
+    direction: rtl;
+    width: 88%;
+    height: 8%;
+    font-family: Shabnam;
+    font-size: 2em;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.right input::placeholder {
+    font-family: Shabnam;
+    font-size: 1em;
+    padding-right: 10px;
+}
+.right button {
+    font-family: Shabnam;
+    font-size: 2em;
+    width: 91%;
+    height: 10%;
+    border-radius: 5px;
+    background-color: #08837f;
+    cursor: pointer;
+}
+.right button:hover {
+    background-color: #4e4e4e;
+    color: white;
+}
+/********************************/
