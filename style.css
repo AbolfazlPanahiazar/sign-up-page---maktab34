@@ -16,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    display: fixed;
 }
 .logo {
     width: 10%;
@@ -170,3 +171,15 @@ body {
     color: white;
 }
 /********************************/
+
+@media screen and (max-width: 760px) {
+    .container {
+        flex-direction: column;
+    }
+    .right {
+        width: 100vw;
+    }
+    .left {
+        width: 100vw;
+    }
+}
